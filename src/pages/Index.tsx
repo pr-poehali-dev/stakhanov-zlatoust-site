@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import MovementFormation from "@/components/MovementFormation";
 import FactCard from "@/components/FactCard";
 import PersonCard from "@/components/PersonCard";
 import Timeline from "@/components/Timeline";
@@ -173,6 +174,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <HeroSection />
+
+      <MovementFormation />
 
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
