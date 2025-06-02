@@ -216,8 +216,6 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <HeroSection />
 
-      <GusipMeeting />
-
       <MovementFormation />
 
       <section className="py-16 px-4">
@@ -234,6 +232,8 @@ const Index = () => {
       </section>
 
       <Timeline />
+
+      <GusipMeeting />
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
