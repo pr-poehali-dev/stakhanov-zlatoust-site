@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import GusipMeeting from "@/components/GusipMeeting";
 import MovementFormation from "@/components/MovementFormation";
 import FactCard from "@/components/FactCard";
 import PersonCard from "@/components/PersonCard";
@@ -6,14 +7,6 @@ import Timeline from "@/components/Timeline";
 
 const Index = () => {
   const facts = [
-    {
-      title: "Совещание в ГУСИП — формализация движения",
-      description:
-        "14 октября 1935 года в Москве состоялось ключевое совещание в Главном управлении станкостроительной и инструментальной промышленности. Были утверждены критерии «стахановской организации работы» и 7 обязательных мер внедрения: от выявления новых стахановцев до прогрессивной оплаты труда",
-      year: "1935",
-      category: "Организационные решения",
-      icon: "📋",
-    },
     {
       title: "Адольф Хеннеке — «немецкий Стаханов»",
       description:
@@ -222,6 +215,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <HeroSection />
+
+      <GusipMeeting />
 
       <MovementFormation />
 
