@@ -145,6 +145,107 @@ const GusipMeeting = () => {
             </div>
           </div>
         </div>
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mt-8">
+          <div className="flex items-center mb-6">
+            <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mr-4">
+              <span className="text-2xl">📈</span>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800">
+                Результаты внедрения: октябрь 1935 — август 1936
+              </h3>
+              <p className="text-gray-600">
+                Завод им. В.И. Ленина — достижения стахановского движения
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-emerald-50 rounded-lg p-6">
+              <div className="flex items-center mb-4">
+                <span className="text-3xl mr-3">👥</span>
+                <div>
+                  <div className="text-2xl font-bold text-emerald-800">926</div>
+                  <div className="text-sm text-gray-600">стахановцев</div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <span className="text-3xl mr-3">⚡</span>
+                <div>
+                  <div className="text-2xl font-bold text-emerald-800">
+                    2487
+                  </div>
+                  <div className="text-sm text-gray-600">ударников</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-6">
+              <div className="flex items-center mb-4">
+                <span className="text-3xl mr-3">💰</span>
+                <div>
+                  <div className="text-2xl font-bold text-blue-800">
+                    700 000
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    рублей сэкономлено на металле
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <span className="text-3xl mr-3">📉</span>
+                <div>
+                  <div className="text-2xl font-bold text-red-600">18%</div>
+                  <div className="text-sm text-gray-600">
+                    не выполняющих нормы
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-4 mb-8">
+            <div className="bg-purple-50 rounded-lg p-4 flex items-center">
+              <span className="text-xl mr-3">📊</span>
+              <span className="text-gray-700">
+                Введена система дифференцирования статуса «стахановца –
+                ударника»
+              </span>
+            </div>
+
+            <div className="bg-orange-50 rounded-lg p-4 flex items-center">
+              <span className="text-xl mr-3">📝</span>
+              <span className="text-gray-700">
+                Введен оперативный учет сменной выработки стахановцев и
+                ударников
+              </span>
+            </div>
+
+            <div className="bg-indigo-50 rounded-lg p-4 flex items-center">
+              <span className="text-xl mr-3">🎯</span>
+              <span className="text-gray-700">
+                Проведена общезаводская конференция стахановцев, ударников и
+                инженерно-технического персонала
+              </span>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-emerald-100 to-green-100 rounded-lg p-6">
+            <div className="flex items-center mb-4">
+              <span className="text-3xl mr-3">🚀</span>
+              <h4 className="text-xl font-semibold text-gray-800">
+                Итоги к весне 1937 года
+              </h4>
+            </div>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Производительность труда выросла в{" "}
+              <span className="font-bold text-emerald-700">2-3 раза</span>, что
+              стало ярким свидетельством эффективности стахановского движения на
+              инструментальном заводе-комбинате им. В.И. Ленина.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
