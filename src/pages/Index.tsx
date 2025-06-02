@@ -208,7 +208,7 @@ const Index = () => {
       <footer className="bg-gray-800 text-white py-8 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-300">
-            © 2024 Стахановское движение в Златоусте. Исторический портал.
+            © 2025 Стахановское движение в Златоусте. Исторический портал.
           </p>
         </div>
       </footer>
