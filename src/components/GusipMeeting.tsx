@@ -64,6 +64,87 @@ const GusipMeeting = () => {
             ))}
           </div>
         </div>
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mt-8">
+          <div className="flex items-center mb-6">
+            <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mr-4">
+              <span className="text-2xl">⚡</span>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800">
+                Директор Золотов: практическое внедрение
+              </h3>
+              <p className="text-gray-600">
+                Завод им. В.И. Ленина — пример системной работы
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="bg-yellow-50 rounded-lg p-6">
+              <div className="flex items-start">
+                <div className="w-8 h-8 bg-yellow-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  📋
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    Приказ от 1 декабря 1935 года
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    Возложение на мастеров, бригадиров и инструкторов цехов
+                    особой ответственности по организации незамедлительной
+                    повседневной помощи стахановцам в настройке рабочего места и
+                    бесперебойной работы станков-механизмов.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-red-50 rounded-lg p-4">
+                <div className="flex items-center mb-3">
+                  <span className="text-xl mr-2">💰</span>
+                  <h4 className="font-semibold text-gray-800">
+                    Контроль оплаты
+                  </h4>
+                </div>
+                <p className="text-gray-700 text-sm">
+                  Велся строгий контроль за оплатой труда стахановцев
+                </p>
+              </div>
+
+              <div className="bg-blue-50 rounded-lg p-4">
+                <div className="flex items-center mb-3">
+                  <span className="text-xl mr-2">📰</span>
+                  <h4 className="font-semibold text-gray-800">
+                    Освещение в прессе
+                  </h4>
+                </div>
+                <p className="text-gray-700 text-sm">
+                  Публикации в «Пролетарской мысли» и «За индустриализацию»
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-green-50 rounded-lg p-6">
+              <div className="flex items-start">
+                <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  🎨
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    Визуальная пропаганда
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    Достижения лучших работников оформлялись красочными
+                    плакатами, которые наряду с портретами стахановцев (в рамках
+                    под стеклом), вывешивались в цехах на всеобщее обозрение.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
