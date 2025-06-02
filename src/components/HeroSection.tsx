@@ -23,7 +23,7 @@ const HeroSection = () => {
             <div className="text-sm opacity-90">Превышение нормы</div>
           </Card>
           <Card className="bg-white/10 backdrop-blur-sm border-white/20 p-6 text-center">
-            <div className="text-3xl font-bold">50+</div>
+            <div className="text-3xl font-bold">926</div>
             <div className="text-sm opacity-90">Стахановцев</div>
           </Card>
         </div>
