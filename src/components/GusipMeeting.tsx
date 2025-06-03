@@ -246,6 +246,91 @@ const GusipMeeting = () => {
             </p>
           </div>
         </div>
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mt-8">
+          <div className="flex items-center mb-6">
+            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+              <span className="text-2xl">🔬</span>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800">
+                Новаторские изобретения металлургического завода
+              </h3>
+              <p className="text-gray-600">
+                Рационализаторские решения всесоюзного значения
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <div className="bg-purple-50 rounded-lg p-6">
+              <div className="flex items-center mb-4">
+                <span className="text-3xl mr-3">⚡</span>
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-800">
+                    Новый тип электродов
+                  </h4>
+                  <div className="text-sm text-gray-600 mt-1">
+                    Рационализаторы: Бондарь, Абрамов, Ощепков
+                  </div>
+                </div>
+              </div>
+              <p className="text-gray-700 text-sm">
+                Революционное изобретение, освободившее страну от зарубежной
+                экономической зависимости
+              </p>
+            </div>
+
+            <div className="bg-orange-50 rounded-lg p-6">
+              <div className="flex items-center mb-4">
+                <span className="text-3xl mr-3">🔧</span>
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-800">
+                    Система ремонта печей
+                  </h4>
+                  <div className="text-sm text-gray-600 mt-1">
+                    Электросталеплавильное производство
+                  </div>
+                </div>
+              </div>
+              <p className="text-gray-700 text-sm">
+                Новая система ремонта электросталеплавильной печи повысила
+                эффективность производства
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-blue-50 rounded-lg p-6">
+            <div className="flex items-center mb-4">
+              <span className="text-3xl mr-3">💧</span>
+              <h4 className="text-lg font-semibold text-gray-800">
+                Заслонки с водяным охлаждением
+              </h4>
+            </div>
+            <p className="text-gray-700">
+              Применение инновационных заслонок с водяным охлаждением
+              значительно улучшило условия работы и безопасность производства
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-r from-purple-100 to-indigo-100 rounded-lg p-6 mt-6">
+            <div className="flex items-center mb-4">
+              <span className="text-3xl mr-3">🏭</span>
+              <h4 className="text-xl font-semibold text-gray-800">
+                Всесоюзное значение изобретений
+              </h4>
+            </div>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Рабочими металлургического завода были сделаны многочисленные
+              новаторские изобретения всесоюзного значения.
+              <span className="font-bold text-purple-700">
+                Внедрение нового типа электродов позволило освободить многие
+                предприятия страны от зарубежной экономической зависимости
+              </span>
+              , что стало важнейшим достижением отечественной промышленности.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
