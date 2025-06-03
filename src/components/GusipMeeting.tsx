@@ -249,6 +249,117 @@ const GusipMeeting = () => {
 
         <div className="bg-white rounded-lg shadow-lg p-8 mt-8">
           <div className="flex items-center mb-6">
+            <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mr-4">
+              <span className="text-2xl">🏆</span>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800">
+                Первый квартал 1937 года: пик стахановского движения
+              </h3>
+              <p className="text-gray-600">
+                Городской слет стахановцев 15 января — новые достижения
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-amber-50 rounded-lg p-6 mb-8">
+            <div className="flex items-center mb-4">
+              <span className="text-2xl mr-3">🤝</span>
+              <h4 className="text-lg font-semibold text-gray-800">
+                Городской слет стахановцев — 15 января 1937 года
+              </h4>
+            </div>
+            <p className="text-gray-700 leading-relaxed">
+              Трудовые коллективы заключили договор и вступили в
+              социалистическое соревнование за лучшие результаты труда.
+              Стахановское движение стало еще более насыщенным и массовым.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-blue-50 rounded-lg p-6">
+              <div className="flex items-center mb-4">
+                <span className="text-3xl mr-3">⚡</span>
+                <h4 className="text-lg font-semibold text-gray-800">
+                  Инструментальный завод
+                </h4>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg p-4">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="font-semibold text-gray-800">
+                      И. Фефелов
+                    </span>
+                    <span className="text-2xl font-bold text-blue-600">
+                      880%
+                    </span>
+                  </div>
+                  <p className="text-sm text-gray-600">
+                    Калибровщик, 15 января 1937 года выполнил норму по выработке
+                    калибров на 880%
+                  </p>
+                </div>
+                <div className="bg-white rounded-lg p-4">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="font-semibold text-gray-800">
+                      И. Пронин
+                    </span>
+                    <span className="text-2xl font-bold text-green-600">
+                      +1000%
+                    </span>
+                  </div>
+                  <p className="text-sm text-gray-600">
+                    Калибровщик, 17 января 1937 года повысил выработку на 1000%
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-orange-50 rounded-lg p-6">
+              <div className="flex items-center mb-4">
+                <span className="text-3xl mr-3">🏭</span>
+                <h4 className="text-lg font-semibold text-gray-800">
+                  Металлургический завод
+                </h4>
+              </div>
+              <div className="bg-white rounded-lg p-4 mb-4">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="font-semibold text-gray-800">
+                    Прокатный цех
+                  </span>
+                  <span className="text-2xl font-bold text-orange-600">
+                    653т
+                  </span>
+                </div>
+                <p className="text-sm text-gray-600 mb-3">
+                  14 февраля 1937 года за сутки прокатали 653 тонны металла
+                  вместо 528 тонн
+                </p>
+                <div className="text-xs text-gray-500">
+                  <strong>Мастера прокатного стана «280»:</strong>
+                  <br />
+                  Павлов, Шумилов, Тырин — каждый прокатал по 35 тонн (при норме
+                  30 тонн)
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-4">
+                <div className="flex items-center mb-2">
+                  <span className="font-semibold text-gray-800">
+                    Мартеновский цех
+                  </span>
+                </div>
+                <p className="text-xs text-gray-500">
+                  <strong>Отличившиеся сталевары:</strong>
+                  <br />
+                  Ковкин, Танцеров, Шибаков, Тарбулатов
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mt-8">
+          <div className="flex items-center mb-6">
             <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mr-4">
               <span className="text-2xl">🔬</span>
             </div>
