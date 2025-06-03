@@ -305,7 +305,7 @@ const GusipMeeting = () => {
                       И. Пронин
                     </span>
                     <span className="text-2xl font-bold text-green-600">
-                      +1000%
+                      1000%
                     </span>
                   </div>
                   <p className="text-sm text-gray-600">
